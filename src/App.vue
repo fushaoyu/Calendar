@@ -26,7 +26,8 @@ export default {
     methods: {
         randomNumber(){
             let arr = [];
-            for(let i=0;i<16;i++) {
+            let num = Math.round(Math.random()*30);
+            for(let i=0;i<num;i++) {
                 arr.push(Math.round(Math.random()*30))
             }
             arr = Array.from(new Set(arr));
