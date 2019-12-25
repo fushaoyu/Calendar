@@ -1,29 +1,26 @@
-# calendar
+# ??
 
-## Project setup
-```
-npm install
-```
+>
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
+## ????
 
-### Compiles and minifies for production
-```
-npm run build
-```
+``` bash
+npm i --save f-calendar
 
-### Run your tests
-```
-npm run test
-```
+import F_Calender from 'f-calendar';
 
-### Lints and fixes files
-```
-npm run lint
-```
+Vue.use(F_Calender);
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+???
+
+????      theme
+??????  defaultColor
+??????  defaultOpt          ??
+???       formerly            ??
+???       future              ??
+????     receiveDate         ??
+
+????????????????????????
+???[24, 27, 1, 30, 25, 11, 5, 4, 3, 9, 29, 18]
+
+
