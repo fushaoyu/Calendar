@@ -2,8 +2,8 @@
   <div id="app">
     <F_Calender
             theme="#DCF6FF"
-            defaultColor="#24FFD4"
-            :defaultOpt="arr"
+            startTime="2019-11-28"
+            endTime="2020-02-05"
             @formerly="formerly"
             @future="future"
             @receiveDate="receiveDate"></F_Calender>
